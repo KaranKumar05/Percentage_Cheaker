@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background: rgba(0, 0, 0, 0.884);
     color: white;
 }
 .container{
@@ -12,6 +12,9 @@ body{
 .main_heading{
     font-size: 50px;
     border-bottom: 2px solid white;
+}
+.main_heading_blue{
+    color: blue;
 }
 table th, table td{
     border-bottom: 2px solid white;
@@ -41,4 +44,36 @@ a{
 }
 a:hover{
     background-color: rgb(10, 10, 136);
+}
+@media (max-width:750px) {
+ .main_heading{
+    font-size: 40px;
+}
+.table_head{
+    font-size: 20px;
+}
+.table_content{
+    text-align: center;
+    font-size: 16px;
+}   
+a{
+    padding: 4px;
+    font-size: 16px;
+}
+}
+@media (max-width:550px) {
+ .main_heading{
+    font-size: 30px;
+}
+.table_head{
+    font-size: 18px;
+}
+.table_content{
+    text-align: center;
+    font-size: 16px;
+}   
+a{
+    padding: 4px;
+    font-size: 16px;
+}
 }
