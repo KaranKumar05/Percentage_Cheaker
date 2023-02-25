@@ -13,7 +13,7 @@ body{
     font-size: 50px;
     border-bottom: 2px solid white;
 }
-.main_heading_blue{
+h1 .main_heading_blue{
     color: blue;
 }
 table th, table td{
